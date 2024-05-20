@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.valor-convertido {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ... (Outros estilos do seu CSS) */
+
+button {
+  display: block;
+  margin: 30px auto; /* Centraliza o botão na horizontal e adiciona espaçamento vertical */
+  padding: 15px 30px; /* Aumenta o espaçamento interno do botão */
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Cor verde */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Cor verde mais escura no hover */
+}
+
+/* ... (Outros estilos do seu CSS) */
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+}
